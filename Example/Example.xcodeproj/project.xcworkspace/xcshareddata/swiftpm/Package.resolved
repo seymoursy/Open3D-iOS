@@ -1,61 +1,59 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "BLAS-LAPACK-AppStore-Workaround",
-        "repositoryURL": "https://github.com/kewlbear/BLAS-LAPACK-AppStore-Workaround.git",
-        "state": {
-          "branch": "main",
-          "revision": "dc78ff05b3c8c1c39d83aab9bdbaef59dc6c87f5",
-          "version": null
-        }
-      },
-      {
-        "package": "LAPACKE-iOS",
-        "repositoryURL": "https://github.com/kewlbear/LAPACKE-iOS.git",
-        "state": {
-          "branch": "main",
-          "revision": "6fbd386ff1cbde8ee6cbf83d2d398d21f8e4474d",
-          "version": null
-        }
-      },
-      {
-        "package": "NumPy-iOS",
-        "repositoryURL": "https://github.com/kewlbear/NumPy-iOS.git",
-        "state": {
-          "branch": "main",
-          "revision": "a686cef91109c46957551e1a79256a900872b1c8",
-          "version": null
-        }
-      },
-      {
-        "package": "Open3D-iOS",
-        "repositoryURL": "https://github.com/kewlbear/Open3D-iOS.git",
-        "state": {
-          "branch": "main",
-          "revision": "8baf17c4158ef047bed638fec523e8e515efc38d",
-          "version": null
-        }
-      },
-      {
-        "package": "Python-iOS",
-        "repositoryURL": "https://github.com/kewlbear/Python-iOS.git",
-        "state": {
-          "branch": "kivy-ios",
-          "revision": "f5333228b625560a90c17d9e2d3a9b2aac6967a9",
-          "version": null
-        }
-      },
-      {
-        "package": "PythonKit",
-        "repositoryURL": "https://github.com/pvieito/PythonKit.git",
-        "state": {
-          "branch": "master",
-          "revision": "c77231820148515a77e9bba5016a57e5a88ef007",
-          "version": null
-        }
+  "pins" : [
+    {
+      "identity" : "blas-lapack-appstore-workaround",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/BLAS-LAPACK-AppStore-Workaround.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "dc78ff05b3c8c1c39d83aab9bdbaef59dc6c87f5"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "lapacke-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/LAPACKE-iOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6fbd386ff1cbde8ee6cbf83d2d398d21f8e4474d"
+      }
+    },
+    {
+      "identity" : "numpy-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/NumPy-iOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c27e79ea5485f5b727aaaf330635f7d423513100"
+      }
+    },
+    {
+      "identity" : "open3d-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/charliegarrison/Open3D-iOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a3b667d6cb45c4e14e9ad4d06563b281ef13c238"
+      }
+    },
+    {
+      "identity" : "python-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/Python-iOS.git",
+      "state" : {
+        "branch" : "3.8_kivy-ios",
+        "revision" : "f5333228b625560a90c17d9e2d3a9b2aac6967a9"
+      }
+    },
+    {
+      "identity" : "pythonkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pvieito/PythonKit.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c77231820148515a77e9bba5016a57e5a88ef007"
+      }
+    }
+  ],
+  "version" : 2
 }
