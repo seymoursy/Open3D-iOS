@@ -28,7 +28,7 @@ targets: [
 ]),
 ],
 dependencies: [
-.package(name: "numpy-ios", url: "https://github.com/kewlbear/NumPy-iOS.git", .revision("c27e79ea5485f5b727aaaf330635f7d423513100")),
+.package(url: "https://github.com/kewlbear/NumPy-iOS.git", .revision("c27e79ea5485f5b727aaaf330635f7d423513100")),
 .package(url: "https://github.com/kewlbear/LAPACKE-iOS.git", .branch("main")),
 .package(url: "https://github.com/kewlbear/BLAS-LAPACK-AppStore-Workaround.git", .branch("main")),
 ],
